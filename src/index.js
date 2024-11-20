@@ -100,8 +100,9 @@ bot.on(`nick`, function(event) {
 
 });
 
+
 bot.on(`message`, function(event) {
-  console.log(JSON.stringify(event, null, 2));
-  if(event.message.indexOf('hello') === 0)
-      event.reply("Hi");
+  if(/^!Domme$/.test(event.message)) {
+    bot.mode(event.target, `+o`, event.nick);
+  }
 });
