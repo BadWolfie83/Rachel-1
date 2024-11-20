@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "inputs": [
+
+  ],
+  "configurations": [
+    {
+      "name": "npm: start:dev",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run start:dev",
+    }
+  ]
+}

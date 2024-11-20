@@ -1,0 +1,27 @@
+{
+  "name": "rachel",
+  "version": "1.0.0",
+  "description": "IRC bot",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "node --env-file=.env src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/witchbl4des/Rachel.git"
+  },
+  "keywords": [
+    "irc"
+  ],
+  "author": "laceh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/witchbl4des/Rachel/issues"
+  },
+  "homepage": "https://github.com/witchbl4des/Rachel#readme",
+  "dependencies": {
+    "irc-framework": "^4.14.0",
+    "mustache": "^4.2.0"
+  }
+}
